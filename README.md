@@ -25,3 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## crunches
+
+E:\Repositories\vault-did\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\webpack-configs\browser.js node: {crypto: true, streams: true}
+
+E:\Repositories\vault-did\node_modules\@decentralized-identity\hub-sdk-js\out\src\HubSession.js 143 line:
+
+change from        case 4: return [4 /*yield*/, res.buffer()];  to        case 4: return [4 /*yield*/, res.text()];
