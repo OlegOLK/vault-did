@@ -1,0 +1,28 @@
+<div class="container">
+
+    <div class="row">
+
+
+        <div class="input-group">
+            <div class="col-md-12">
+
+
+                <input class="form-control" [ngModel]="DID" (ngModelChange)="DID = $event" type="text"
+                    placeholder="enter your did here">
+
+            </div>
+            <div class="col-md-12">
+                <input class="form-control" [ngModel]="inputKid" (ngModelChange)="inputKid = $event" type="text"
+                    placeholder="enter your kid here">
+            </div>
+            <div class="col-md-12">
+                <textarea class="form-control" [ngModel]="privateRsaPemKey" (ngModelChange)="privateRsaPemKey = $event"
+                    placeholder="enter your PEM RSA private key here"></textarea>
+            </div>
+            <div class="col-md-12">
+                <button type="button" class="btn btn-success" (click)="login()">Login</button>
+            </div>
+        </div>
+
+    </div>
+</div>
